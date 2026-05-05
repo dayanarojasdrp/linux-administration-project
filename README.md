@@ -26,7 +26,6 @@ The project covers common operational tasks required in real-world systems, incl
 ## Repository Structure
 
 ```txt
-docs/
   01-netplan.md
   02-secure-ssh.md
   03-web-server.md
@@ -38,10 +37,8 @@ docs/
   09-network-tests.md
   10-troubleshooting.md
 
-evidence/
   logs/
   outputs/
-  screenshots/
 
 README.md
 ```
