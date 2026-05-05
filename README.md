@@ -1,17 +1,38 @@
 # Linux Administration & Troubleshooting Project
 
-This repository documents my hands-on work with Linux system administration, networking, security, and troubleshooting.  
-The goal of this project is to demonstrate practical skills in diagnosing issues, securing services, and documenting real-world solutions.
+## About the Project
 
----
+This repository documents a practical Linux system administration project focused on configuring, securing, monitoring, and troubleshooting a Linux server environment.
+
+The project covers common operational tasks such as network configuration, SSH hardening, web server setup, permission management, service control, automated backups, log rotation, intrusion prevention, and network diagnostics.
 
 ## Skills Demonstrated
 
-- Network diagnostics (ARP, ICMP, routes, ports)
+- Network configuration with Netplan
+- Secure SSH configuration
+- Web server administration
+- Linux permissions and ownership
 - Service management with systemd
-- Security hardening with Fail2ban
-- Web server administration (Apache/Nginx)
-- Log analysis with journalctl and dmesg
-- Troubleshooting real errors (permissions, ownership, missing paths, kernel OOM)
-- Documentation of solutions and corrective actions
+- Backup automation with cron
+- Log rotation with logrotate
+- Basic intrusion prevention with Fail2ban
+- Network testing and diagnostics
+- Troubleshooting service, permission, and system issues
 
+## Repository Structure
+
+```txt
+logs/
+outputs/
+01-netplan.md
+02-secure-ssh.md
+03-web-server.md
+04-var-www-permissions.md
+05-systemd-service.md
+06-cronjob-backup.md
+07-logrotate-config.md
+08-fail2ban.md
+09-network-tests.md
+10-troubleshooting.md
+SSH.png
+```
